@@ -1,0 +1,6 @@
+ - name: Teste update
+   tasks:
+    - name: Executa Update
+      command: apt -y update
+    - name: Executa Upgrade
+      command: apt -y upgrade
